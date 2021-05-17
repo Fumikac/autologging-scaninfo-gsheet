@@ -2,14 +2,12 @@
 This GUI exorts scan information and variables of all scans of a day to a google sheet. There is an option to autoatically update it every half minute so you can let it run during the experiment.
 
 ![example google sheet](example2.png)
-## Download
-1. Go to [release page](https://github.com/GEECS-BELLA/GEECS-Plugins/releases) in github and download the build package.
-If your PC asks you about access rights, right-click --> properties, general tab --> "this file came from another computer and might be blocked help protect this computer" --> unblock
-
-2. Download a [json file](https://drive.google.com/file/d/1q3kZ9eK_sg6X9vrSyA4xOed_7NVv9z0U/view?usp=sharing) and put it in the same location as the files you doanloaded at step 1. This is an access key to to BELLA google drive.
 
 ## How to run
-* In 'Scan Date Folder' section, choose a folder of a scan date where scan data are stored. Ex) `Z:\\data\\Undulator\\Y2020\\01-Jan\\20_0123`. Fill in experimental parameters to list, then choose a google folder location for the gsheet to be saved. Click **Export**.
+
+* Download a [json file](https://drive.google.com/file/d/1q3kZ9eK_sg6X9vrSyA4xOed_7NVv9z0U/view?usp=sharing)(Only accessible to LBNL BELLA group) and put it in the same location as the files you doanloaded at step 1. This is an access key to to BELLA google drive.
+
+* In 'Scan Date Folder' section, choose a folder of a scan date where scan data is stored. Ex) `Z:\\data\\Undulator\\Y2020\\01-Jan\\20_0123`. Fill in experimental parameters to list, then choose a google folder location for the gsheet to be saved. Click **Export**.
     
 * In 'enable auto update' section, you can select/unselect anytime to run/stop the auto update. It will update the Google sheet every 30 seconds as long as you already clicked **Export** before.
     
