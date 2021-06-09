@@ -1,4 +1,4 @@
-# ScanInfoToGsheetGUI
+# ScanInfo To Gsheet GUI
 
 Last updated on Jun 8th, 2021
 
