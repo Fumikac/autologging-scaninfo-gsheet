@@ -2,7 +2,7 @@
 
 Last updated on Jun 8th, 2021
 
-This GUI extract scan information and variables of all scans of a day from sfiles and analysis files, then creates a scan summary on a google sheet (automatically saved in a google drive). There is an option to autoatically update it every minute so you can let it run during the experiment.
+Using this GUI you extract scan information and variables of all scans of a day from sfiles and analysis files, then creates a scan summary on a google sheet. There is an option to autoatically update it every minute so you can let it run during the experiment.
 
 ![example google sheet](example2.png)
 
