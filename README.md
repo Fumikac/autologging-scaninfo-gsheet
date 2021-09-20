@@ -1,4 +1,4 @@
-# ScanInfo To Gsheet GUI
+# ScanInfoToGsheet GUI: automatically log and update experimental data on the google sheet
 
 Last updated on Jun 8th, 2021
 
