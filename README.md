@@ -2,9 +2,17 @@
 
 Last updated on Jun 8th, 2021
 
-Fumika Isono
+Contact Fumika Isono (fisono@lbl.gov, fumika21@gmail.com) for bugs/new feature requests
 
+## Overview
 Using this GUI you can extract scan information and variables of all experimental scans of a day from sfiles and analysis files, then create a scan summary on a google sheet. There is an option to autoatically update it every minute so you can let it run during the experiment.
+
+It logs
+* Scan#, Shot#, start time (exact time when first shot was taken), scan info you wrote in the beginning of the scan
+* ScanParameter: retrive the parameter you scanned, get its alias if available
+    - start/end value, total shots, number of shots per step
+* Other variables: specify parameters you want to see in the "Parameters to list" section of the GUI. If the parameter was scanned for the scan, it says 'scan'.
+
 
 ![example GUI](example1.png)
 ![example google sheet](example2.png)
@@ -43,4 +51,4 @@ Before running, open the file and fill in sections in main function.
 
 Run this python script in the command line `python ExportScanInfo.py`. Or, you can run right click the file in the folder, 'Open with > Python'.
 
-Fumika Isono (fisono@lbl.gov, fumika21@gmail.com)
+Fumika Isono 
