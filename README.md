@@ -1,9 +1,10 @@
 # ScanInfoToGsheet GUI: automatically log and update experimental data on the google sheet
 
 Last updated on Jun 8th, 2021
+
 Fumika Isono
 
-Using this GUI you extract scan information and variables of all scans of a day from sfiles and analysis files, then creates a scan summary on a google sheet. There is an option to autoatically update it every minute so you can let it run during the experiment.
+Using this GUI you can extract scan information and variables of all experimental scans of a day from sfiles and analysis files, then create a scan summary on a google sheet. There is an option to autoatically update it every minute so you can let it run during the experiment.
 
 ![example GUI](example1.png)
 ![example google sheet](example2.png)
